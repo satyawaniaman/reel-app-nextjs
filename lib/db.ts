@@ -11,7 +11,7 @@ if (!cached) {
     promise: null,
   };
 }
-export async function connectToDatabase() {
+export async function  connectToDatabase() {
   if (cached.conn) {
     return cached.conn;
   }
